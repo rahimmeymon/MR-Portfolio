@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Card</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Container styles */
+    .container {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Contact card styles */
+    .contact-card {
+      text-align: center;
+    }
+
+    .contact-card h1 {
+      font-size: 24px;
+      margin: 0;
+      margin-top: 10px;
+      color: #333333;
+    }
+
+    .contact-card h3 {
+      font-size: 16px;
+      margin: 0;
+      color: #555555;
+    }
+
+    .contact-card p {
+      margin: 10px 0;
+    }
+
+    /* Footer styles */
+    footer {
+      text-align: center;
+      color: #888888;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="contact-card">
+      <h1>My Contact Details</h1>
+      <h3>Email: muhammadraheemmemon62@gmail.com</h3>
+      <h3>Mobile: PK+304-3219138</h3>
+      <h3>Address: Mir Hassan Mohallah Matiari</h3>
+      <hr>
+      <h2>Contact Me!</h2>
+      <form action="index2.html" method="post">
+        <label for="username">User Name</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="message">Your Message</label><br><br>
+        <textarea id="message" name="message" rows="10" cols="30"></textarea><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
